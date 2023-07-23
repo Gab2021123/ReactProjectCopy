@@ -11,6 +11,6 @@ The statement is put into the header of the componenet because import the moduls
 - [x] Create the componets sorting the first until the last homework possible.
 - [X] The repository´s link is: https://github.com/Gab2021123/ReactProjectCopy.git.
 - [X] The links for use the  tools in the ide:
-      -https://www.emailjs.com/docs/examples/reactjs/
-      -https://www.npmjs.com/package/number-counter?activeTab=readme
-      -https://www.framer.com/motion/
+      - https://www.emailjs.com/docs/examples/reactjs/
+      - https://www.npmjs.com/package/number-counter?activeTab=readme
+      - https://www.framer.com/motion/
