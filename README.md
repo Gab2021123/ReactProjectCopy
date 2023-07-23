@@ -9,5 +9,8 @@ this comand is for download and start the moduls in the project.
 The statement is put into the header of the componenet because import the moduls.
 ## HomeWorks List
 - [x] Create the componets sorting the first until the last homework possible.
-- [X] https://github.com/octo-org/octo-repo/issues/740
-- [X] Add delight to the experience when all tasks are complete 
+- [X] The repository´s link is: https://github.com/Gab2021123/ReactProjectCopy.git.
+- [X] The links for use the  tools in the ide:
+      _https://www.emailjs.com/docs/examples/reactjs/
+      _https://www.npmjs.com/package/number-counter?activeTab=readme
+      _https://www.framer.com/motion/
