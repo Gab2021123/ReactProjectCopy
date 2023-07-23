@@ -1,0 +1,125 @@
+.Plan-Container{
+    display: flex;
+    flex-direction: column; 
+    gap: 5rem;
+}
+.Plan-Container .programs-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 4rem;
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    font-size: 40pt;
+    font-style: italic;
+}
+.plans{
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    gap: 5rem;
+   
+}
+.plan{
+   padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    background-color: var(--caloryCard);
+   
+    width: 15rem;
+  
+ } 
+.plans>:nth-child(2){
+    transform: scale(1.2);
+    background: var(--planCard);
+}
+.plans>.plan>svg{
+    fill:rgb(220, 100, 40);
+    width: 2rem;
+    height: 2rem;
+  
+}
+.plan:nth-child(2)>svg{
+    fill: white;
+}
+ .plan>span{
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+  
+}
+.plan>span:nth-child(3){
+    font-size: 38pt;
+}
+.plan:nth-child(5){
+    display: flex;
+  
+    font-size: 5pt;
+}
+
+.features{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.features>.feature{
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+}
+.features>.feature>img{
+    width: 1rem;
+    height: 1rem;
+}
+.features>.feature>span{
+    color: white;
+    font-weight: 300;
+}
+.benefits{
+    font-size: 10pt;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+.benefits>span{
+    color: white;
+   font-weight: 100;
+}
+.benefits>img{
+    width: 1rem;
+    height: 1rem;
+    transition: 1s;
+    cursor: pointer;
+}
+.plan>button{
+    text-align: center;
+    padding: 0.5rem;
+    width: 15rem;
+    height: 3rem;
+    font-weight: bold;
+    transition: 1s ;
+}
+.plan>button:hover{
+   background-color:transparent;
+}
+.benefits>img:hover{
+transform: rotateY(180deg);
+cursor: pointer;
+
+}
+.planContainer-blur-left{
+    width: 22rem;
+    height: 30rem;
+    left: 0;
+}
+.planContainer-blur-rigth{
+    width: 22rem;
+    height: 30rem;
+    right: 0;
+}
+

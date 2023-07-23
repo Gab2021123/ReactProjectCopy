@@ -1,0 +1,40 @@
+.footer{
+    display: flex;
+    gap: 4rem;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 15rem;
+   
+    
+}
+.contentImages {
+    display: flex;
+    gap: 4rem;
+     position: relative;
+}
+.contentImages img{
+    width: 30px;
+    height: 30px;
+    
+}
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.logo  img{
+    width: 170px;
+    height: 50px;
+}
+.fotter-blur-left{
+    width: 28rem;
+    height: 14rem;
+    left: 10rem;
+}
+.fotter-blur-rigth{
+    width: 28rem;
+    height: 14rem;
+    right: 10rem;
+}

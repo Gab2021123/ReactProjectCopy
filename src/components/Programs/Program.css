@@ -1,0 +1,63 @@
+.Program{
+    display: flex;
+    flex-direction: column;
+   margin: 0 auto;
+   position: relative;
+}
+.Program>.programs-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 40pt;
+    text-transform: uppercase;
+    font-style: italic;
+    font-weight: 600;
+    margin: 0rem 8rem;
+}
+.Program>.programs-header>:nth-child(2){
+    color: white;
+}
+.programs-categories{
+    display: flex;
+   gap: 2rem;
+   color: white;
+   margin: 2rem;
+}
+.programs-categories>.category{
+    display: flex;
+     flex-direction: column;
+     gap: 2rem;
+     color: #fff;
+     fill: white;
+     padding: 2rem;
+     background-color: var(--gray);
+     transition: 1s;
+}
+.programs-categories>.category:hover{
+    fill: black;
+    color: black;
+    box-shadow: -8px -4px 38px 3px rgba(0,0,0,0.42);
+}
+.programs-categories>.category>:nth-child(1){
+    width: 38px;
+    height: 38px;
+   
+}
+
+.programs-categories>.category>:nth-child(2){
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+.programs-categories>.category>.join-now{
+    display: flex;
+    gap: 5rem;
+}.programs-categories>.category>.join-now>span{
+    width: fit-content;
+    font-size: 18pt;
+    font-weight: bold;
+}.programs-categories>.category>.join-now>img{
+    cursor: pointer;
+    font-size: 20pt;
+    height: 2rem;
+    width: 2rem;
+}

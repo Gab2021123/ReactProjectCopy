@@ -1,0 +1,222 @@
+.hero{
+   display: flex;
+   justify-content: space-between;
+}
+.left-h{
+    padding: 2rem;
+    padding-top: 1.5rem;
+    gap: 2rem;
+    flex: 3;
+    flex-direction: column;
+}
+.rigth-h{
+    flex: 1;
+    background-color: var(--orange);
+    position: relative;
+}
+.the-best-ad{
+    margin-top: 4rem;
+    background-color: var(--appColor);
+    border-radius: 4rem;
+    padding: 23px 14px;
+    width: fit-content;
+    text-transform: uppercase;
+    color: white;
+    position: relative;
+    display: flex;
+    align-items: center;
+   
+}
+.the-best-ad>span{
+    z-index: 2;
+}
+.the-best-ad>div{
+    position: absolute;
+    width: 5.4rem;
+    height: 80%;
+    border-radius: 3rem;
+    justify-content: flex-start;
+    background-color: var(--orange);
+    left: 8px;
+    z-index: 1;
+}
+.hero-text{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    text-transform: uppercase;
+    font-size: 4.5rem;
+    font-weight: bold;
+    color: white;
+    text-overflow: inherit;
+    box-shadow: orange;
+}
+.hero-text>div:nth-of-type(3){
+    font-size: 1rem;
+    text-transform: none;
+    font-weight: 200;
+    letter-spacing: 1px;
+    width: 80%;
+}
+.figures{
+    display: flex;
+    margin-top: 3.5rem;
+    gap: 1.5rem;
+    text-align: start;
+}
+.figures>div{
+    display: flex;
+    flex-direction: column;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.figures>div>span:nth-child(1){
+    font-weight: 400;
+    font-size: 25pt;
+    color: white;
+    text-align: center;
+}
+.figures>div>span:nth-child(2){
+    font-weight: 500;
+    font-size: 14pt;
+    text-align: start;
+    text-transform: uppercase;
+    color: var(--gray);
+}
+.hero-buttons{
+    margin-top: 2.5rem;
+    display: flex;
+    gap: 2rem;
+}
+.hero-buttons>:nth-child(1){
+    background-color: var(--orange);
+    width: 8rem;
+    height: 2.5rem;
+    color: white;
+   font-size: 11pt;
+}
+.hero-buttons>:nth-child(1):hover{
+    color: white;
+    width: 8rem;
+    height: 2.5rem;
+    background-color: transparent;
+    border: 2px var(--orange) solid;
+}
+.hero-buttons>:nth-child(2){
+   color: white;
+    width: 8rem;
+    height: 2.5rem;
+    background-color: transparent;
+    border: 2px var(--orange) solid;
+    font-size: 11pt;
+}
+.hero-buttons>:nth-child(2):hover{
+    background-color: var(--orange);
+    width: 8rem;
+    height: 2.5rem;
+    color: white;
+}
+.hero-buttons>:nth-child(1){
+    background-color: var(--orange);
+    width: 8rem;
+    height: 2.5rem;
+    color: white;
+   font-size: 11pt;
+}
+
+.rigth-h>.btn{
+    position: absolute;
+    right: 3.2rem;
+    top: 2rem;
+    width: 8rem;
+    height: 2.5rem;
+    border-radius: 3px;
+}
+.rigth-h>.btn:hover{
+    color: white;
+    width: 8rem;
+    height: 2.5rem;
+    background-color: transparent;
+    border: 2px var(--appColor) solid;
+}
+.rigth-h>.hate-rate{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--darkGrey);
+    width: 7rem;
+    padding: .5rem;
+    position: absolute;
+    border-radius: 5px;
+    top: 8rem;
+    left: 13rem;
+    align-items: start;
+    gap: 1rem;
+}
+.rigth-h>.hate-rate>img{
+    width:2rem;   
+}
+.rigth-h>.hate-rate>:nth-child(2){
+    color: var(--gray);
+    font-style: italic;
+}
+.rigth-h>.hate-rate>:nth-child(3){
+    display: flex;
+   color: white;
+   font-size: 1.5rem;
+   transition: .4s;
+}
+.rigth-h>.hate-rate>:nth-child(3):hover{
+    color: var(--orange);
+}
+.rigth-h>.hero-image{
+    position: absolute;
+    width: 25rem;
+   
+    top: 7rem;
+    right: 8rem;
+
+}
+.rigth-h>.hero-image-back{
+    position: absolute;
+    z-index: -1;
+    top: 2rem;
+    right: 29rem;
+    height: 60%;
+}
+.rigth-h>.calories{
+    display: flex;
+    gap: 2rem;
+    position: absolute;
+    background-color: var(--caloryCard);
+    border-radius: 5px;
+    padding: 1rem;
+    top: 28rem;
+    right: 30rem;
+    width: fit-content;
+}
+.rigth-h>.calories>img{
+    width: 3rem;
+}
+.rigth-h>.calories>.calories_details{
+   display: flex;
+   gap: 1rem;
+   flex-direction:column ;
+    justify-content: space-between;
+}
+.rigth-h>.calories>.calories_details>:nth-child(1){
+    color: var(--gray);
+    font-style: italic;
+}
+.rigth-h>.calories>.calories_details>:nth-child(2){
+    font-size: 2rem;
+    color: whitesmoke;
+}
+.hero-blur{
+    width: 22rem;
+    height: 30rem;
+    left: 0;
+}
+.number{
+    display: flex;
+}
